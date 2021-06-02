@@ -1,2 +1,6 @@
 /venv/
 dump.rdb
+/workspace/venv/
+/workspace_2/venv/
+.idea/
+
