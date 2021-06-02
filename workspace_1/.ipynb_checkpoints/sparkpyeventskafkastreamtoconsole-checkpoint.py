@@ -33,5 +33,5 @@ from pyspark.sql.types import StructField, StructType, StringType, BooleanType, 
 # |Spencer.Davis@tes...| 8.0|
 # +--------------------+-----
 # Run the python script by running the command from the terminal:
-# /home/workspace/submit-event-kafka-streaming.sh
+# /home/workspace_1/submit-event-kafka-streaming.sh
 # Verify the data looks correct 

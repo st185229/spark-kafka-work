@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 
 # TO-DO: create a variable with the absolute path to the text file
-# /home/workspace/lesson-1-streaming-dataframes/exercises/starter/Test.txt
+# /home/workspace_1/lesson-1-streaming-dataframes/exercises/starter/Test.txt
 logFile = "/mnt/c/Users/sthoe09258/source/udacity/nd029-c2-apache-spark-and-spark-streaming-starter/lesson-1-streaming-dataframes/exercises/starter/Test.txt"
 
 # TO-DO: create a Spark session

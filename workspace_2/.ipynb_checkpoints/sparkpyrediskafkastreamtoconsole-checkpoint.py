@@ -93,5 +93,5 @@ from pyspark.sql.types import StructField, StructType, StringType, BooleanType, 
 # +--------------------+-----
 
 # Run the python script by running the command from the terminal:
-# /home/workspace/submit-redis-kafka-streaming.sh
+# /home/workspace_1/submit-redis-kafka-streaming.sh
 # Verify the data looks correct 

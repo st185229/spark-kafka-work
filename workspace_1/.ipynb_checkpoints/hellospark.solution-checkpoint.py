@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-logFile = "/home/workspace/Test.txt"  # Should be some file on your system
+logFile = "/home/workspace_1/Test.txt"  # Should be some file on your system
 spark = SparkSession.builder.appName("HelloSpark").getOrCreate()
 spark.sparkContext.setLogLevel('WARN')
 logData = spark.read.text(logFile).cache()
