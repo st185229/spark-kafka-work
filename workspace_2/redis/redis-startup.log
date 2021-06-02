@@ -1,0 +1,53 @@
+33:C 02 Jun 2021 14:04:07.779 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+33:C 02 Jun 2021 14:04:07.780 # Redis version=6.0.6, bits=64, commit=00000000, modified=0, pid=33, just started
+33:C 02 Jun 2021 14:04:07.780 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 6.0.6 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 33
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+33:M 02 Jun 2021 14:04:07.784 # Server initialized
+33:M 02 Jun 2021 14:04:07.784 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+33:M 02 Jun 2021 14:04:07.784 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+33:M 02 Jun 2021 14:04:07.785 * Loading RDB produced by version 6.0.6
+33:M 02 Jun 2021 14:04:07.785 * RDB age 20735178 seconds
+33:M 02 Jun 2021 14:04:07.785 * RDB memory usage when created 1.96 Mb
+33:M 02 Jun 2021 14:04:07.786 * DB loaded from disk: 0.002 seconds
+33:M 02 Jun 2021 14:04:07.786 * Ready to accept connections
+33:M 02 Jun 2021 14:04:25.497 * Replica 127.0.0.1:41296 asks for synchronization
+33:M 02 Jun 2021 14:04:25.497 * Partial resynchronization not accepted: Replication ID mismatch (Replica asked for 'e050918f7cbc83525fdaffa8764563bb962cd031', my replication IDs are 'cd377eb85ffef1c9589440c21d69e1b73f025820' and '0000000000000000000000000000000000000000')
+33:M 02 Jun 2021 14:04:25.497 * Replication backlog created, my new replication IDs are 'f1ecb80926868fa8d7363ee1d4de06c2bb181312' and '0000000000000000000000000000000000000000'
+33:M 02 Jun 2021 14:04:25.497 * Starting BGSAVE for SYNC with target: disk
+33:M 02 Jun 2021 14:04:25.497 * Background saving started by pid 787
+787:C 02 Jun 2021 14:04:25.512 * DB saved on disk
+787:C 02 Jun 2021 14:04:25.513 * RDB: 0 MB of memory used by copy-on-write
+33:M 02 Jun 2021 14:04:25.555 * Background saving terminated with success
+33:M 02 Jun 2021 14:04:25.555 * Synchronization with replica 127.0.0.1:41296 succeeded
+33:M 02 Jun 2021 14:09:26.091 * 10 changes in 300 seconds. Saving...
+33:M 02 Jun 2021 14:09:26.092 * Background saving started by pid 1701
+1701:C 02 Jun 2021 14:09:26.099 * DB saved on disk
+1701:C 02 Jun 2021 14:09:26.100 * RDB: 0 MB of memory used by copy-on-write
+33:M 02 Jun 2021 14:09:26.192 * Background saving terminated with success
+33:M 02 Jun 2021 14:14:27.018 * 10 changes in 300 seconds. Saving...
+33:M 02 Jun 2021 14:14:27.019 * Background saving started by pid 1746
+1746:C 02 Jun 2021 14:14:27.024 * DB saved on disk
+1746:C 02 Jun 2021 14:14:27.025 * RDB: 0 MB of memory used by copy-on-write
+33:M 02 Jun 2021 14:14:27.119 * Background saving terminated with success
+33:M 02 Jun 2021 14:22:02.997 * 10 changes in 300 seconds. Saving...
+33:M 02 Jun 2021 14:22:02.997 * Background saving started by pid 1747
+1747:C 02 Jun 2021 14:22:03.003 * DB saved on disk
+1747:C 02 Jun 2021 14:22:03.003 * RDB: 0 MB of memory used by copy-on-write
+33:M 02 Jun 2021 14:22:03.098 * Background saving terminated with success
